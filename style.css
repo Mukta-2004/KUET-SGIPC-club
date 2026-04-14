@@ -8,3 +8,35 @@
 body {
     font-family: Arial, sans-serif;
 }
+
+nav {
+    background-color: #0a192f;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px;
+}
+
+nav ul {
+    list-style-type: circle;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.hello {
+    height: 90px;
+    background: linear-gradient(rgba(0,0,0,0.6));
+    background-size: cover;
+    background-position: center;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
