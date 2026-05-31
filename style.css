@@ -650,3 +650,282 @@ form button:hover {
     .alumni-grid { grid-template-columns: 1fr; }
     .about-banner h2 { font-size: 30px; }
 }
+
+/* ════════════════════════════════
+   TEAM PAGE
+   ════════════════════════════════ */
+
+.team-page {
+    background-color: #0a192f;
+    min-height: calc(100vh - 70px - 61px);
+}
+
+.team-banner {
+    padding: 60px 20px 48px;
+    text-align: center;
+    border-bottom: 1px solid rgba(100, 255, 218, 0.12);
+}
+
+.team-banner h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #ccd6f6;
+    margin-bottom: 10px;
+}
+
+.team-banner h2 span { color: #64ffda; }
+
+.team-banner p {
+    font-size: 15px;
+    color: #8892b0;
+    max-width: 520px;
+    margin: 0 auto;
+    line-height: 1.7;
+}
+
+/* ── House cards ── */
+.houses {
+    display: flex;
+    gap: 28px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 52px 40px 72px;
+}
+
+.house-card {
+    width: 270px;
+    border-radius: 12px;
+    padding: 36px 26px 32px;
+    cursor: pointer;
+    text-align: center;
+    border: 2px solid transparent;
+    transition: transform 0.25s, box-shadow 0.25s, border-color 0.25s;
+    position: relative;
+}
+
+.house-card:hover { transform: translateY(-8px); }
+
+.house-icon {
+    font-size: 54px;
+    margin-bottom: 16px;
+    display: block;
+}
+
+.house-card h3 {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    margin-bottom: 12px;
+}
+
+.house-card p {
+    font-size: 13.5px;
+    line-height: 1.7;
+    margin-bottom: 18px;
+}
+
+.house-badge {
+    display: inline-block;
+    padding: 5px 16px;
+    border-radius: 20px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+}
+
+/* Gryffindor */
+.house-card.gryffindor { background: linear-gradient(150deg, #1a0a0a, #2c1010); border-color: #6b0000; }
+.house-card.gryffindor:hover { border-color: #ae0001; box-shadow: 0 12px 40px rgba(174,0,1,0.35); }
+.house-card.gryffindor h3   { color: #ffd700; }
+.house-card.gryffindor p    { color: #c9a0a0; }
+.house-card.gryffindor .house-badge { background: rgba(174,0,1,0.35); color: #ffd700; border: 1px solid rgba(174,0,1,0.5); }
+
+/* Ravenclaw */
+.house-card.ravenclaw { background: linear-gradient(150deg, #060d1a, #0d1e35); border-color: #1a2f6b; }
+.house-card.ravenclaw:hover { border-color: #3a5cb5; box-shadow: 0 12px 40px rgba(58,92,181,0.35); }
+.house-card.ravenclaw h3   { color: #b0c8f0; }
+.house-card.ravenclaw p    { color: #7a9ac8; }
+.house-card.ravenclaw .house-badge { background: rgba(58,92,181,0.25); color: #b0c8f0; border: 1px solid rgba(58,92,181,0.5); }
+
+/* Slytherin */
+.house-card.slytherin { background: linear-gradient(150deg, #050e08, #0d1f12); border-color: #0a3d15; }
+.house-card.slytherin:hover { border-color: #1a6e2e; box-shadow: 0 12px 40px rgba(26,110,46,0.35); }
+.house-card.slytherin h3   { color: #a0d4a0; }
+.house-card.slytherin p    { color: #6aaa7a; }
+.house-card.slytherin .house-badge { background: rgba(26,110,46,0.25); color: #a0d4a0; border: 1px solid rgba(26,110,46,0.5); }
+
+/* MODAL*/
+
+.modal-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.78);
+    backdrop-filter: blur(5px);
+    z-index: 200;
+    align-items: center;
+    justify-content: center;
+}
+.modal-overlay.active { display: flex; }
+
+.modal {
+    background: #0d1422;
+    border: 1px solid rgba(100, 255, 218, 0.15);
+    border-radius: 14px;
+    padding: 36px 32px 28px;
+    width: min(520px, 92vw);
+    max-height: 90vh;
+    overflow-y: auto;
+    position: relative;
+    animation: modalIn 0.3s ease;
+}
+
+@keyframes modalIn {
+    from { opacity: 0; transform: translateY(24px) scale(0.97); }
+    to   { opacity: 1; transform: translateY(0)    scale(1); }
+}
+
+.modal-close {
+    position: absolute;
+    top: 16px; right: 20px;
+    background: none;
+    border: none;
+    color: #4a5568;
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+.modal-close:hover { color: #ccd6f6; }
+
+.modal h3 {
+    font-size: 1.3rem;
+    color: #ccd6f6;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.modal-subtitle {
+    font-size: 13px;
+    color: #8892b0;
+    margin-bottom: 24px;
+}
+
+.modal-section-label {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: #64ffda;
+    border-bottom: 1px solid rgba(100, 255, 218, 0.2);
+    padding-bottom: 6px;
+    margin: 20px 0 14px;
+}
+
+.modal-form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px;
+    margin-bottom: 14px;
+}
+
+.modal-field {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-bottom: 14px;
+}
+.modal-form-row .modal-field { margin-bottom: 0; }
+
+.modal-field label {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    color: #8892b0;
+}
+
+.req { color: #64ffda; }
+
+.modal-field input,
+.modal-field textarea {
+    padding: 10px 14px;
+    background: #112240;
+    border: 1.5px solid rgba(100, 255, 218, 0.12);
+    border-radius: 7px;
+    color: #ccd6f6;
+    font-size: 14px;
+    font-family: inherit;
+    outline: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.modal-field input:focus,
+.modal-field textarea:focus {
+    border-color: #64ffda;
+    box-shadow: 0 0 0 3px rgba(100, 255, 218, 0.1);
+}
+
+.modal-field input::placeholder,
+.modal-field textarea::placeholder { color: #3d4f6e; }
+
+.modal-field textarea { resize: vertical; min-height: 78px; }
+
+.confirm-box {
+    margin-top: 22px;
+    padding: 18px 20px;
+    background: #081020;
+    border: 1px dashed rgba(100, 255, 218, 0.2);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.confirm-box p {
+    font-size: 14px;
+    color: #8892b0;
+    margin-bottom: 14px;
+    line-height: 1.6;
+}
+.confirm-box p strong { color: #ccd6f6; }
+
+.btn-submit {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 7px;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    cursor: pointer;
+    font-family: inherit;
+    transition: opacity 0.2s, transform 0.15s;
+}
+.btn-submit:hover { opacity: 0.85; transform: translateY(-1px); }
+
+.btn-gryffindor { background: #ae0001; color: #ffd700; }
+.btn-ravenclaw  { background: #0e1a45; color: #b0c8f0; border: 1px solid #3a5cb5; }
+.btn-slytherin  { background: #1a6e2e; color: #a0d4a0; }
+
+.success-view {
+    display: none;
+    text-align: center;
+    padding: 32px 0 20px;
+}
+
+.success-icon { font-size: 3.2rem; margin-bottom: 14px; }
+
+.success-view h4 {
+    font-size: 1.2rem;
+    color: #ccd6f6;
+    margin-bottom: 8px;
+}
+
+.success-view p { font-size: 14px; color: #8892b0; }
+
+/* ── Responsive ── */
+@media (max-width: 560px) {
+    .houses { padding: 36px 20px 56px; gap: 20px; }
+    .house-card { width: 100%; max-width: 340px; }
+    .modal-form-row { grid-template-columns: 1fr; }
+    .modal { padding: 28px 20px 24px; }
+}
