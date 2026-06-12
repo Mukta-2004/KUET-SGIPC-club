@@ -1,0 +1,9 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="x64" />
+  </Configurations>
+  <Project Path="pracWeb/pracWeb.csproj" Id="50db7b12-5427-4a5a-8588-7bb787341c93">
+    <Platform Solution="*|x64" Project="x64" />
+  </Project>
+</Solution>

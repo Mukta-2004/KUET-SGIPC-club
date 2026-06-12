@@ -1,0 +1,205 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="team.aspx.cs" Inherits="pracWeb.team" %>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head runat="server">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team | SGIPC - KUET</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="form2" runat="server">
+
+        <nav>
+            <h1>SGIPC</h1>
+            <ul>
+                <li><a href="first.aspx">Home</a></li>
+                <li><a href="about.aspx">About</a></li>
+                <li><a class="active">Team</a></li>
+                <li><a href="contact.aspx">Contact</a></li>
+            </ul>
+        </nav>
+
+        <section class="team-page">
+
+            <div class="team-banner">
+                <h2>Choose Your <span>Team</span></h2>
+                <p>Every great programmer belongs somewhere. Pick the house that matches your spirit — and join the fight.</p>
+            </div>
+
+            <div class="houses">
+
+                <div class="house-card gryffindor" onclick="openModal('gryffindor')">
+                    <div class="house-icon">🦁</div>
+                    <h3>Gryffindor</h3>
+                    <p>Brave coders who tackle the hardest problems head-on. If you never give up on a TLE, this is your home.</p>
+                    <span class="house-badge">Courage · Determination</span>
+                </div>
+
+                <div class="house-card ravenclaw" onclick="openModal('ravenclaw')">
+                    <div class="house-icon">🦅</div>
+                    <h3>Ravenclaw</h3>
+                    <p>Thinkers and strategists. Masters of DP, algorithms, and elegant solutions nobody else thought of.</p>
+                    <span class="house-badge">Wit · Wisdom</span>
+                </div>
+
+                <div class="house-card slytherin" onclick="openModal('slytherin')">
+                    <div class="house-icon">🐍</div>
+                    <h3>Slytherin</h3>
+                    <p>Cunning and resourceful. They find the O(log n) solution before anyone else even reads the problem.</p>
+                    <span class="house-badge">Ambition · Resourcefulness</span>
+                </div>
+
+            </div>
+
+        </section>
+
+        <footer>
+            <p>© SGIPC | KUET</p>
+        </footer>
+
+        <!-- Modal -->
+        <div class="modal-overlay" id="modalOverlay" onclick="closeOnBackdrop(event)">
+            <div class="modal">
+                <button class="modal-close" onclick="closeModal()">✕</button>
+
+                <div id="formView">
+                    <h3 id="modalTitle">Join Gryffindor</h3>
+                    <p class="modal-subtitle" id="modalSubtitle">Fill in your details to apply</p>
+
+                    <div class="modal-section-label">Personal Info</div>
+                    <div class="modal-form-row">
+                        <div class="modal-field">
+                            <label>Full Name <span class="req">*</span></label>
+                            <input type="text" id="f-name" placeholder="Your name" />
+                        </div>
+                        <div class="modal-field">
+                            <label>Email <span class="req">*</span></label>
+                            <input type="email" id="f-email" placeholder="you@example.com" />
+                        </div>
+                    </div>
+                    <div class="modal-field">
+                        <label>Phone Number</label>
+                        <input type="tel" id="f-phone" placeholder="+880 ..." />
+                    </div>
+
+                    <div class="modal-section-label">Programming Background</div>
+                    <div class="modal-form-row">
+                        <div class="modal-field">
+                            <label>Codeforces Rating</label>
+                            <input type="number" id="f-cf" placeholder="e.g. 1200" />
+                        </div>
+                        <div class="modal-field">
+                            <label>Codeforces Handle</label>
+                            <input type="text" id="f-cfhandle" placeholder="e.g. tourist" />
+                        </div>
+                        <div class="modal-field">
+                            <label>Languages <span class="req">*</span></label>
+                            <input type="text" id="f-langs" placeholder="C++, Python..." />
+                        </div>
+                    </div>
+                    <div class="modal-field">
+                        <label>Previous Experience</label>
+                        <textarea id="f-exp" placeholder="Contests, projects, achievements..."></textarea>
+                    </div>
+
+                    <div class="confirm-box">
+                        <p>Do you <strong>truly</strong> intend to join <strong id="confirmHouseName">Gryffindor</strong> and commit to the team?</p>
+                        <button class="btn-submit" id="submitBtn" onclick="submitForm()">⚡ Yes, I'm in!</button>
+                    </div>
+                </div>
+
+                <div class="success-view" id="successView">
+                    <div class="success-icon">🎉</div>
+                    <h4 id="successTitle">Welcome!</h4>
+                    <p>Your application has been received. We'll reach out to you soon.</p>
+                </div>
+            </div>
+        </div>
+
+        <%-- Hidden fields --%>
+           <input type="hidden" id="Hidden1"     runat="server" />
+           <input type="hidden" id="Hidden2"    runat="server" />
+           <input type="hidden" id="Hidden3"    runat="server" />
+           <input type="hidden" id="Hidden4"       runat="server" />
+           <input type="hidden" id="Hidden5" runat="server" />
+           <input type="hidden" id="Hidden6"    runat="server" />
+           <input type="hidden" id="Hidden7"      runat="server" />
+           <input type="hidden" id="Hidden8"    runat="server" />
+
+           <asp:Button ID="btnHiddenSubmit" runat="server"
+           Style="display:none;"
+            OnClick="btnHiddenSubmit_Click" />
+    </form>
+    <script type="text/javascript">
+
+        let currentHouse = '';
+
+        const houseData = {
+            gryffindor: { title: 'Join Gryffindor 🦁', subtitle: 'Show your courage — fill in your details', btnClass: 'btn-gryffindor', success: 'Welcome to Gryffindor! 🦁🔥' },
+            ravenclaw: { title: 'Join Ravenclaw 🦅', subtitle: 'Prove your wisdom — fill in your details', btnClass: 'btn-ravenclaw', success: 'Welcome to Ravenclaw! 🦅📘' },
+            slytherin: { title: 'Join Slytherin 🐍', subtitle: 'Show your ambition — fill in your details', btnClass: 'btn-slytherin', success: 'Welcome to Slytherin! 🐍💚' }
+        };
+
+        function openModal(house) {
+            currentHouse = house;
+            const d = houseData[house];
+            document.getElementById('modalTitle').textContent = d.title;
+            document.getElementById('modalSubtitle').textContent = d.subtitle;
+            document.getElementById('confirmHouseName').textContent = house.charAt(0).toUpperCase() + house.slice(1);
+            document.getElementById('successTitle').textContent = d.success;
+            document.getElementById('submitBtn').className = 'btn-submit ' + d.btnClass;
+            document.getElementById('formView').style.display = 'block';
+            document.getElementById('successView').style.display = 'none';
+            document.getElementById('modalOverlay').classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeModal() {
+            document.getElementById('modalOverlay').classList.remove('active');
+            document.body.style.overflow = '';
+            ['f-name', 'f-email', 'f-phone', 'f-cf', 'f-cfhandle', 'f-langs', 'f-exp'].forEach(id => document.getElementById(id).value = '');
+        }
+
+        function closeOnBackdrop(e) {
+            if (e.target === document.getElementById('modalOverlay')) closeModal();
+        }
+
+        function submitForm() {
+            const name = document.getElementById('f-name').value.trim();
+            const email = document.getElementById('f-email').value.trim();
+            const langs = document.getElementById('f-langs').value.trim();
+
+            if (!name || !email || !langs) {
+                alert('Please fill in Name, Email, and Languages.');
+                return;
+            }
+
+            // Copy values into hidden fields
+            document.getElementById('h-name').value = name;
+            document.getElementById('h-email').value = email;
+            document.getElementById('h-phone').value = document.getElementById('f-phone').value.trim();
+            document.getElementById('h-cf').value = document.getElementById('f-cf').value.trim();
+            document.getElementById('h-cfhandle').value = document.getElementById('f-cfhandle').value.trim();
+            document.getElementById('h-langs').value = langs;
+            document.getElementById('h-exp').value = document.getElementById('f-exp').value.trim();
+            document.getElementById('h-house').value = currentHouse;
+
+            // Show success message
+            document.getElementById('formView').style.display = 'none';
+            document.getElementById('successView').style.display = 'block';
+
+            // Trigger server-side save after short delay
+            setTimeout(function () {
+                document.getElementById('<%= btnHiddenSubmit.ClientID %>').click();
+        }, 1500);
+        }
+
+    </script>
+   
+
+</body>
+</html>
