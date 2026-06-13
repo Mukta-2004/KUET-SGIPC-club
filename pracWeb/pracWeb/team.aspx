@@ -108,7 +108,7 @@
 
                     <div class="confirm-box">
                         <p>Do you <strong>truly</strong> intend to join <strong id="confirmHouseName">Gryffindor</strong> and commit to the team?</p>
-                        <button class="btn-submit" id="submitBtn" onclick="submitForm()">⚡ Yes, I'm in!</button>
+                        <button type="button" class="btn-submit" id="submitBtn" onclick="submitForm()">⚡ Yes, I'm in!</button>
                     </div>
                 </div>
 
@@ -121,17 +121,17 @@
         </div>
 
         <%-- Hidden fields --%>
-           <input type="hidden" id="Hidden1"     runat="server" />
-           <input type="hidden" id="Hidden2"    runat="server" />
-           <input type="hidden" id="Hidden3"    runat="server" />
-           <input type="hidden" id="Hidden4"       runat="server" />
-           <input type="hidden" id="Hidden5" runat="server" />
-           <input type="hidden" id="Hidden6"    runat="server" />
-           <input type="hidden" id="Hidden7"      runat="server" />
-           <input type="hidden" id="Hidden8"    runat="server" />
+        <input type="hidden" id="Hidden1" runat="server" />
+        <input type="hidden" id="Hidden2" runat="server" />
+        <input type="hidden" id="Hidden3" runat="server" />
+        <input type="hidden" id="Hidden4" runat="server" />
+        <input type="hidden" id="Hidden5" runat="server" />
+        <input type="hidden" id="Hidden6" runat="server" />
+        <input type="hidden" id="Hidden7" runat="server" />
+        <input type="hidden" id="Hidden8" runat="server" />
 
-           <asp:Button ID="btnHiddenSubmit" runat="server"
-           Style="display:none;"
+        <asp:Button ID="btnHiddenSubmit" runat="server"
+            Style="display: none;"
             OnClick="btnHiddenSubmit_Click" />
     </form>
     <script type="text/javascript">
@@ -179,14 +179,24 @@
             }
 
             // Copy values into hidden fields
-            document.getElementById('h-name').value = name;
-            document.getElementById('h-email').value = email;
-            document.getElementById('h-phone').value = document.getElementById('f-phone').value.trim();
-            document.getElementById('h-cf').value = document.getElementById('f-cf').value.trim();
-            document.getElementById('h-cfhandle').value = document.getElementById('f-cfhandle').value.trim();
-            document.getElementById('h-langs').value = langs;
-            document.getElementById('h-exp').value = document.getElementById('f-exp').value.trim();
-            document.getElementById('h-house').value = currentHouse;
+            document.getElementById('<%= Hidden1.ClientID %>').value = name;
+            document.getElementById('<%= Hidden2.ClientID %>').value = email;
+            document.getElementById('<%= Hidden3.ClientID %>').value =
+                document.getElementById('f-phone').value.trim();
+
+            document.getElementById('<%= Hidden4.ClientID %>').value =
+                document.getElementById('f-cf').value.trim();
+
+            document.getElementById('<%= Hidden5.ClientID %>').value =
+                document.getElementById('f-cfhandle').value.trim();
+
+            document.getElementById('<%= Hidden6.ClientID %>').value = langs;
+
+            document.getElementById('<%= Hidden7.ClientID %>').value =
+                document.getElementById('f-exp').value.trim();
+
+            document.getElementById('<%= Hidden8.ClientID %>').value =
+                currentHouse;
 
             // Show success message
             document.getElementById('formView').style.display = 'none';
@@ -195,11 +205,11 @@
             // Trigger server-side save after short delay
             setTimeout(function () {
                 document.getElementById('<%= btnHiddenSubmit.ClientID %>').click();
-        }, 1500);
+            }, 1500);
         }
 
     </script>
-   
+
 
 </body>
 </html>

@@ -77,6 +77,7 @@ namespace pracWeb
             }
             catch (Exception)
             {
+                System.Console.WriteLine("Exception");
                 return false;
             }
         }
