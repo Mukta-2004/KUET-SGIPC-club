@@ -1,42 +1,46 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Msi\\source\\repos\\pracWeb\\",
+  "WorkspaceRootPath": "D:\\Web programming project\\KUET-SGIPC-club\\pracWeb\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{50DB7B12-5427-4A5A-8588-7BB787341C93}|pracWeb\\pracWeb.csproj|c:\\users\\msi\\source\\repos\\pracweb\\pracweb\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50DB7B12-5427-4A5A-8588-7BB787341C93}|pracWeb\\pracWeb.csproj|solutionrelative:pracweb\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Web programming project\\KUET-SGIPC-club\\pracWeb\\pracWeb\\pracWeb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:pracWeb\\pracWeb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50DB7B12-5427-4A5A-8588-7BB787341C93}|pracWeb\\pracWeb.csproj|C:\\Users\\Msi\\source\\repos\\pracWeb\\pracweb\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50DB7B12-5427-4A5A-8588-7BB787341C93}|pracWeb\\pracWeb.csproj|solutionrelative:pracweb\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Web programming project\\KUET-SGIPC-club\\pracWeb\\pracWeb\\team.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:pracWeb\\team.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50DB7B12-5427-4A5A-8588-7BB787341C93}|pracWeb\\pracWeb.csproj|C:\\Users\\Msi\\source\\repos\\pracWeb\\pracweb\\team.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50DB7B12-5427-4A5A-8588-7BB787341C93}|pracWeb\\pracWeb.csproj|solutionrelative:pracweb\\team.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Web programming project\\KUET-SGIPC-club\\pracWeb\\pracWeb\\DatabaseHelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:pracWeb\\DatabaseHelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50DB7B12-5427-4A5A-8588-7BB787341C93}|pracWeb\\pracWeb.csproj|C:\\Users\\Msi\\source\\repos\\pracWeb\\pracweb\\first.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{50DB7B12-5427-4A5A-8588-7BB787341C93}|pracWeb\\pracWeb.csproj|solutionrelative:pracweb\\first.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Web programming project\\KUET-SGIPC-club\\pracWeb\\pracWeb\\Global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:pracWeb\\Global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50DB7B12-5427-4A5A-8588-7BB787341C93}|pracWeb\\pracWeb.csproj|C:\\Users\\Msi\\source\\repos\\pracWeb\\pracweb\\team.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{50DB7B12-5427-4A5A-8588-7BB787341C93}|pracWeb\\pracWeb.csproj|solutionrelative:pracweb\\team.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Web programming project\\KUET-SGIPC-club\\pracWeb\\pracWeb\\team.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:pracWeb\\team.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50DB7B12-5427-4A5A-8588-7BB787341C93}|pracWeb\\pracWeb.csproj|C:\\Users\\Msi\\source\\repos\\pracWeb\\pracweb\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{50DB7B12-5427-4A5A-8588-7BB787341C93}|pracWeb\\pracWeb.csproj|solutionrelative:pracweb\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Web programming project\\KUET-SGIPC-club\\pracWeb\\pracWeb\\first.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:pracWeb\\first.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50DB7B12-5427-4A5A-8588-7BB787341C93}|pracWeb\\pracWeb.csproj|C:\\Users\\Msi\\source\\repos\\pracWeb\\pracweb\\contact.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{50DB7B12-5427-4A5A-8588-7BB787341C93}|pracWeb\\pracWeb.csproj|solutionrelative:pracweb\\contact.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Web programming project\\KUET-SGIPC-club\\pracWeb\\pracWeb\\contact.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:pracWeb\\contact.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50DB7B12-5427-4A5A-8588-7BB787341C93}|pracWeb\\pracWeb.csproj|C:\\Users\\Msi\\source\\repos\\pracWeb\\pracweb\\about.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{50DB7B12-5427-4A5A-8588-7BB787341C93}|pracWeb\\pracWeb.csproj|solutionrelative:pracweb\\about.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Web programming project\\KUET-SGIPC-club\\pracWeb\\pracWeb\\about.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:pracWeb\\about.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50DB7B12-5427-4A5A-8588-7BB787341C93}|pracWeb\\pracWeb.csproj|C:\\Users\\Msi\\source\\repos\\pracWeb\\pracweb\\indexwebform.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{50DB7B12-5427-4A5A-8588-7BB787341C93}|pracWeb\\pracWeb.csproj|solutionrelative:pracweb\\indexwebform.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Web programming project\\KUET-SGIPC-club\\pracWeb\\pracWeb\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:pracWeb\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Web programming project\\KUET-SGIPC-club\\pracWeb\\pracWeb\\IndexWebForm.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:pracWeb\\IndexWebForm.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
   "DocumentGroupContainers": [
@@ -59,23 +63,35 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DatabaseHelper.cs",
-              "DocumentMoniker": "C:\\Users\\Msi\\source\\repos\\pracWeb\\pracWeb\\DatabaseHelper.cs",
-              "RelativeDocumentMoniker": "pracWeb\\DatabaseHelper.cs",
-              "ToolTip": "C:\\Users\\Msi\\source\\repos\\pracWeb\\pracWeb\\DatabaseHelper.cs",
-              "RelativeToolTip": "pracWeb\\DatabaseHelper.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAuwEwAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-11T13:05:37.977Z",
+              "Title": "pracWeb.csproj",
+              "DocumentMoniker": "D:\\Web programming project\\KUET-SGIPC-club\\pracWeb\\pracWeb\\pracWeb.csproj",
+              "RelativeDocumentMoniker": "pracWeb\\pracWeb.csproj",
+              "ToolTip": "D:\\Web programming project\\KUET-SGIPC-club\\pracWeb\\pracWeb\\pracWeb.csproj",
+              "RelativeToolTip": "pracWeb\\pracWeb.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-13T11:01:24.535Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "DatabaseHelper.cs",
+              "DocumentMoniker": "D:\\Web programming project\\KUET-SGIPC-club\\pracWeb\\pracWeb\\DatabaseHelper.cs",
+              "RelativeDocumentMoniker": "pracWeb\\DatabaseHelper.cs",
+              "ToolTip": "D:\\Web programming project\\KUET-SGIPC-club\\pracWeb\\pracWeb\\DatabaseHelper.cs",
+              "RelativeToolTip": "pracWeb\\DatabaseHelper.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAuwE4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T13:05:37.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "team.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Msi\\source\\repos\\pracWeb\\pracWeb\\team.aspx.cs",
+              "DocumentMoniker": "D:\\Web programming project\\KUET-SGIPC-club\\pracWeb\\pracWeb\\team.aspx.cs",
               "RelativeDocumentMoniker": "pracWeb\\team.aspx.cs",
-              "ToolTip": "C:\\Users\\Msi\\source\\repos\\pracWeb\\pracWeb\\team.aspx.cs",
+              "ToolTip": "D:\\Web programming project\\KUET-SGIPC-club\\pracWeb\\pracWeb\\team.aspx.cs",
               "RelativeToolTip": "pracWeb\\team.aspx.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -84,94 +100,87 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Global.asax.cs",
-              "DocumentMoniker": "C:\\Users\\Msi\\source\\repos\\pracWeb\\pracWeb\\Global.asax.cs",
+              "DocumentMoniker": "D:\\Web programming project\\KUET-SGIPC-club\\pracWeb\\pracWeb\\Global.asax.cs",
               "RelativeDocumentMoniker": "pracWeb\\Global.asax.cs",
-              "ToolTip": "C:\\Users\\Msi\\source\\repos\\pracWeb\\pracWeb\\Global.asax.cs",
+              "ToolTip": "D:\\Web programming project\\KUET-SGIPC-club\\pracWeb\\pracWeb\\Global.asax.cs",
               "RelativeToolTip": "pracWeb\\Global.asax.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-11T12:26:37.074Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-11T12:26:37.074Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "team.aspx",
-              "DocumentMoniker": "C:\\Users\\Msi\\source\\repos\\pracWeb\\pracWeb\\team.aspx",
+              "DocumentMoniker": "D:\\Web programming project\\KUET-SGIPC-club\\pracWeb\\pracWeb\\team.aspx",
               "RelativeDocumentMoniker": "pracWeb\\team.aspx",
-              "ToolTip": "C:\\Users\\Msi\\source\\repos\\pracWeb\\pracWeb\\team.aspx",
+              "ToolTip": "D:\\Web programming project\\KUET-SGIPC-club\\pracWeb\\pracWeb\\team.aspx",
               "RelativeToolTip": "pracWeb\\team.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2026-06-10T16:26:40.073Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-10T16:26:40.073Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "first.aspx",
-              "DocumentMoniker": "C:\\Users\\Msi\\source\\repos\\pracWeb\\pracWeb\\first.aspx",
+              "DocumentMoniker": "D:\\Web programming project\\KUET-SGIPC-club\\pracWeb\\pracWeb\\first.aspx",
               "RelativeDocumentMoniker": "pracWeb\\first.aspx",
-              "ToolTip": "C:\\Users\\Msi\\source\\repos\\pracWeb\\pracWeb\\first.aspx",
+              "ToolTip": "D:\\Web programming project\\KUET-SGIPC-club\\pracWeb\\pracWeb\\first.aspx",
               "RelativeToolTip": "pracWeb\\first.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2026-06-10T14:40:55.602Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-10T14:40:55.602Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "contact.aspx",
-              "DocumentMoniker": "C:\\Users\\Msi\\source\\repos\\pracWeb\\pracWeb\\contact.aspx",
+              "DocumentMoniker": "D:\\Web programming project\\KUET-SGIPC-club\\pracWeb\\pracWeb\\contact.aspx",
               "RelativeDocumentMoniker": "pracWeb\\contact.aspx",
-              "ToolTip": "C:\\Users\\Msi\\source\\repos\\pracWeb\\pracWeb\\contact.aspx",
+              "ToolTip": "D:\\Web programming project\\KUET-SGIPC-club\\pracWeb\\pracWeb\\contact.aspx",
               "RelativeToolTip": "pracWeb\\contact.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2026-06-10T16:28:05.388Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-10T16:28:05.388Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "about.aspx",
-              "DocumentMoniker": "C:\\Users\\Msi\\source\\repos\\pracWeb\\pracWeb\\about.aspx",
+              "DocumentMoniker": "D:\\Web programming project\\KUET-SGIPC-club\\pracWeb\\pracWeb\\about.aspx",
               "RelativeDocumentMoniker": "pracWeb\\about.aspx",
-              "ToolTip": "C:\\Users\\Msi\\source\\repos\\pracWeb\\pracWeb\\about.aspx",
+              "ToolTip": "D:\\Web programming project\\KUET-SGIPC-club\\pracWeb\\pracWeb\\about.aspx",
               "RelativeToolTip": "pracWeb\\about.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2026-06-10T16:08:06.126Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "style.css",
-              "DocumentMoniker": "C:\\Users\\Msi\\source\\repos\\pracWeb\\pracWeb\\style.css",
-              "RelativeDocumentMoniker": "pracWeb\\style.css",
-              "ToolTip": "C:\\Users\\Msi\\source\\repos\\pracWeb\\pracWeb\\style.css",
-              "RelativeToolTip": "pracWeb\\style.css",
-              "ViewState": "AgIAAP4DAAAAAAAAAAAAACsEAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-06-10T14:51:42.447Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-10T16:08:06.126Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "style.css",
+              "DocumentMoniker": "D:\\Web programming project\\KUET-SGIPC-club\\pracWeb\\pracWeb\\style.css",
+              "RelativeDocumentMoniker": "pracWeb\\style.css",
+              "ToolTip": "D:\\Web programming project\\KUET-SGIPC-club\\pracWeb\\pracWeb\\style.css",
+              "RelativeToolTip": "pracWeb\\style.css",
+              "ViewState": "AgIAAP4DAAAAAAAAAAAAACsEAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-06-10T14:51:42.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "IndexWebForm.aspx",
-              "DocumentMoniker": "C:\\Users\\Msi\\source\\repos\\pracWeb\\pracWeb\\IndexWebForm.aspx",
+              "DocumentMoniker": "D:\\Web programming project\\KUET-SGIPC-club\\pracWeb\\pracWeb\\IndexWebForm.aspx",
               "RelativeDocumentMoniker": "pracWeb\\IndexWebForm.aspx",
-              "ToolTip": "C:\\Users\\Msi\\source\\repos\\pracWeb\\pracWeb\\IndexWebForm.aspx",
+              "ToolTip": "D:\\Web programming project\\KUET-SGIPC-club\\pracWeb\\pracWeb\\IndexWebForm.aspx",
               "RelativeToolTip": "pracWeb\\IndexWebForm.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2026-06-08T15:38:27.059Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-08T15:38:27.059Z"
             }
           ]
         }

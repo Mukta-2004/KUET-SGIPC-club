@@ -6,7 +6,7 @@ namespace pracWeb
 {
     public static class DatabaseHelper
     {
-        private static string dbPath = @"C:\Users\Msi\source\repos\pracWeb\pracWeb.db";
+        private static string dbPath = @"D:\Web programming project\KUET-SGIPC-club\pracWeb\pracWeb.db";
 
         private static string GetConnectionString()
         {
