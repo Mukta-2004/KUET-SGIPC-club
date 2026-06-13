@@ -94,7 +94,7 @@
                         Find us at KUET, Fulbarigate, Khulna
                     </p>
                     <asp:HyperLink ID="lnkMap" runat="server"
-                        NavigateUrl="https://maps.google.com/?q=KUET,Khulna,Bangladesh"
+                        NavigateUrl="https://www.bing.com/maps/search?mepi=60%7E%7EEmbedded%7ELargeMapLink&ty=18&vdpid=7421904818458853379&v=2&sV=1&FORM=MIRE&q=Khulna+University+of+Engineering+and+Technology%2C+Khulna%2C+Bangladesh&ss=id.sid%3A518355b1-f23f-52f6-cde5-9dfb9aaa581b&ppois=22.899688720703125_89.50260925292969_Khulna+University+of+Engineering+and+Technology%2C+Khulna%2C+Bangladesh_%7E&cp=22.644264%7E89.981346&lvl=9.5&style=r"
                         Target="_blank"
                         CssClass="map-btn">View on Google Maps</asp:HyperLink>
                 </div>
